@@ -75,3 +75,36 @@ html {
     text-align: center;
   }
   
+form input,
+form textarea,
+form button{
+display: block;
+width: 320px;
+margin-bottom: 8px;
+padding: 8px;
+}
+
+form button{
+  background-color: #182C61;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form textarea{
+  resize: none;
+  height: 180px;
+}
+
+
+form button:hover{
+  background-color: #314e9e;
+}
+
+input:focus, textarea:focus{
+outline-color: #182C61;
+}
+
+figcaption{
+  font-weight: bold;
+}
